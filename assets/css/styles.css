@@ -257,6 +257,8 @@ img{
   width: 100%;
 }
 
+/* buttons */
+
 .button{
   display: inline-block;
   background-color: var(--first-color);
@@ -269,6 +271,15 @@ img{
 
 .button:hover{
   background-color: var(--first-color-dark);
+}
+
+.button__light{
+  background-color: var(--first-color-lighten);
+  color: var(--first-color);
+}
+
+.button__light:hover{
+  color: var(--first-color-lighten);
 }
 
 /* about */
@@ -425,4 +436,32 @@ img{
   width: 2px;
   background-color: var(--first-color);
   transform: translate(5px, -4px);
+}
+
+/* project */
+
+.project{
+  background-color: var(--first-color);
+  padding-bottom: 0;
+}
+
+.project__container{
+  row-gap: 2rem;
+}
+
+.project__data{
+  text-align: center;
+}
+
+.project__title, .project__description{
+  color: var(--first-color-lighten);
+}
+
+.project__description{
+  margin-bottom: var(--mb-4);
+}
+
+.project__img{
+  width: 220px;
+  justify-self: center;
 }
