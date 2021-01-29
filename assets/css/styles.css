@@ -208,8 +208,8 @@ img{
 }
 
 .home__img{
-  padding-top: 1.3rem;
-  padding-left: .8rem;
+  padding-top: 1.2rem;
+  /* padding-left: .8rem; */
   width: 160px;
   height: 160px;
   background-color: var(--first-color);
@@ -219,7 +219,7 @@ img{
 }
 
 .home__img img{
-  width: 155px;
+  width: 160px;
 }
 
 .home__title{
@@ -506,6 +506,7 @@ img{
 .works__title{
   font-size: var(--h2-font-size);
   color: var(--first-color-lighten);
+  text-align: center;
 }
 
 .works__img:hover .works__data{
