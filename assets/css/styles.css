@@ -373,8 +373,23 @@ img{
   width: 88%;
 }
 
-.skills__react{
+.skills__react,
+.skills__libraries,
+.skills__management{
   width: 70%;
+}
+
+.skills__typescript {
+  width: 40%;
+}
+.skills__webpack {
+  width: 50%;
+}
+.skills__VSC {
+  width: 90%;
+}
+.skills__Design{
+  width: 60%;
 }
 
 .skills__vue{
